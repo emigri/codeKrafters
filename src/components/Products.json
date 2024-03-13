@@ -1,20 +1,14 @@
-[
+const Products = {
     {
       "id": 1,
-      "name": "Weather Dashboard",
-      "image": "../assets/images/Challenge 08 - Weather Dashboard.png",
-      "description": "Weather Dashboard......",
-      "website": "w",
-      "github": "g"
-    },
-    {
-      "id": 2,
-      "name": "Bootstrap Portfolio",
-      "image": "../assets/images/Challenge 03 - Bootstrap Portfolio.png",
-      "description": "Bootstrap Portfolio.....",
-      "website": "w",
-      "github": "g"
+      "name": "Cashflow Management",
+      "image": "",
+      "description": ".....",
+      "image2": "",
+      
+      "websitePrice" : "",
+      "mobilePrice": ""
     }
-  
-  ]
+
+}
   
