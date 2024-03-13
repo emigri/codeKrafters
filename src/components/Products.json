@@ -1,0 +1,14 @@
+const Products = {
+    {
+      "id": 1,
+      "name": "Cashflow Management",
+      "image": "",
+      "description": ".....",
+      "image2": "",
+      
+      "websitePrice" : "",
+      "mobilePrice": ""
+    }
+
+}
+  
