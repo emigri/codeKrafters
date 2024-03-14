@@ -1,14 +1,111 @@
-const Products = {
-    {
-      "id": 1,
-      "name": "Cashflow Management",
-      "image": "",
-      "description": ".....",
-      "image2": "",
-      
-      "websitePrice" : "",
-      "mobilePrice": ""
-    }
-
-}
+[
+  {
+    "id": 1,
+    "name": "Cashflow Management",
+    "description": "Manage your finances quickly and efficiently while gaining greater insight into your business",
+    "features": [
+      "Easy cashflow management", 
+      "Advanced accountancy and tax management tools", 
+      "Cashflow bottleneck analyser",
+      "Set your own thresholds and alarms", 
+      "User customisable reporting and analytics",
+      "Intuitive and easy to use"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "4000.00",
+    "MobilePrice": "3500.00",
+    "DevelopmentDays" : 4
+  },
+  {
+    "id": 2,
+    "name": "Stock Inventory",
+    "description": "Keep track of your assets and avoid becoming undersocked or overstocked",
+    "features": [
+      "Easy stock inventory tracking", 
+      "Accurate forcasting of future demands (using your historical data)",
+      "Advanced item tracking tools", 
+      "Ability to integrate with digital sensors and real-time input", 
+      "Set your own thresholds and alarms", 
+      "User customisable reporting and analytics",
+      "Intuitive and easy to use"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "5000.00",
+    "MobilePrice": "4500.00",
+    "DevelopmentDays" : 5
+  },
+  {
+    "id": 3,
+    "name": "Customer Management",
+    "description": "Manage your customer relations. Know your customers and support their needs",
+    "features": [
+      "Easy customer management", 
+      "Advanced customer support and issue tracking tools", 
+      "Manage customer emails and correspondence",
+      "Ability to integrate with social media and other external sources", 
+      "Set your own thresholds and alarms", 
+      "User customisable reporting and analytics",
+      "Intuitive and easy to use"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "4000.00",
+    "MobilePrice": "3500.00",
+    "DevelopmentDays" : 4
+  },
+  {
+    "id": 4,
+    "name": "Vehicle Tracking",
+    "description": "Manage all of your vehicles and keep track of your fleet",
+    "features": [
+      "Easy vehicle tracking", 
+      "View your vehicles on the map in real-time", 
+      "Monitor the status and activity of your vehicles",
+      "Analyse performance over time", 
+      "Set your own thresholds and alarms", 
+      "User customisable reporting and analytics",
+      "Intuitive and easy to use"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "6000.00",
+    "MobilePrice": "5800.00",
+    "DevelopmentDays" : 6
+  },
+  {
+    "id": 5,
+    "name": "Custom Development",
+    "description": "Tell us your requirements and we will design and build a fully bespoke application for your needs",
+    "features": [
+        "Bespoke development tailored for you and your precise requirements",
+        "Speak with our team to discuss your ideal application",
+        "If all your requirements are feasible, we can build it",
+        "Priced on a Per Day basis"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "1000.00",
+    "MobilePrice": "850.00",
+    "DevelopmentDays" : 0
+  },
+  {
+    "id": 6,
+    "name": "User Support (pre-booked)",
+    "description": "Let us support you and your team as you explore and use our applications",
+    "features": [
+      "Friendly, helpful and knowledgeable support",
+      "Telephone support available during standard business hours (UK)",
+      "Email support",
+      "Site visits (surcharge applicable)",
+      "Priced on a Per Day basis"
+      ],
+    "image1": "",
+    "image2": "",
+    "WebsitePrice" : "50.00",
+    "MobilePrice": "40.00",
+    "DevelopmentDays" : 0
+  }
+]
   
