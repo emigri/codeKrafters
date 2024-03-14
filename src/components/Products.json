@@ -11,8 +11,8 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/CreditCardSale1.jpg",
+    "image2": "../public/images/CreditCardSale2.jpg",
     "WebsitePrice" : "4000.00",
     "MobilePrice": "3500.00",
     "DevelopmentDays" : 4
@@ -30,8 +30,8 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/Warehouse1.jpg",
+    "image2": "../public/images/Warehouse2.jpg",
     "WebsitePrice" : "5000.00",
     "MobilePrice": "4500.00",
     "DevelopmentDays" : 5
@@ -49,8 +49,8 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/Customer1.jpg",
+    "image2": "../public/images/Customer2.jpg",
     "WebsitePrice" : "4000.00",
     "MobilePrice": "3500.00",
     "DevelopmentDays" : 4
@@ -68,8 +68,8 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/DeliveryVan1.jpg",
+    "image2": "../public/images/DeliveryVan2.jpg",
     "WebsitePrice" : "6000.00",
     "MobilePrice": "5800.00",
     "DevelopmentDays" : 6
@@ -84,8 +84,8 @@
         "If all your requirements are feasible, we can build it",
         "Priced on a Per Day basis"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/Tailor1.jpg",
+    "image2": "../public/images/Tailor2.jpg",
     "WebsitePrice" : "1000.00",
     "MobilePrice": "850.00",
     "DevelopmentDays" : 0
@@ -101,8 +101,8 @@
       "Site visits (surcharge applicable)",
       "Priced on a Per Day basis"
       ],
-    "image1": "",
-    "image2": "",
+    "image1": "../public/images/UserSupport1.jpg",
+    "image2": "../public/images/UserSupport2.jpg",
     "WebsitePrice" : "50.00",
     "MobilePrice": "40.00",
     "DevelopmentDays" : 0
