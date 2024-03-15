@@ -1,9 +1,11 @@
-import React, { Component} from 'react';
+
 import Navbar from '../Navbar';
-export default class About extends Component {
-    render() {
+
+ function About (){
+
         return (
             // About Content 
-        )
+        );
     }
-}
+
+export default About;

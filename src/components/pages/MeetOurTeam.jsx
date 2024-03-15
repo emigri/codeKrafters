@@ -1,9 +1,10 @@
-import React, { Component} from 'react';
-export default class MeetOurTeam extends Component  {
-    render() {
-        return (
-            // MeetOurTeam
 
-        )
-    }
+
+function MeetOurTeam (){
+
+    return (
+        // About Content 
+    );
 }
+
+export default MeetOurTeam;

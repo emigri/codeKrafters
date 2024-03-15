@@ -1,8 +1,10 @@
-import React, { Component} from 'react';
-export default class ProductCatalogue extends Component {
-    render() {
-        return (
-            // Product Catalogue Content 
-        )
-    }
+
+
+function ProductCatalogue (){
+
+    return (
+        // About Content 
+    );
 }
+
+export default ProductCatalogue;

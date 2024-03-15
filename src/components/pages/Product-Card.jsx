@@ -1,10 +1,10 @@
 
 
-function Carousel (){
+function ProductCard(){
 
     return (
         // About Content 
     );
 }
 
-export default Carousel;
+export default ProductCard;

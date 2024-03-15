@@ -5,9 +5,9 @@ import React, { Component} from 'react';
 
 
 
-export default class Navbar extends Component {
+ function Navbar {
    
-    render() {
+   
         return (
             <div className='w-full fixed'>
                 <div className='md:px-10 py-4 px-7 flex justify-between items-center bg-blue-100'>
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
                         <li className='font-semibold'>
                             <Link to='/contact'>Contact</Link>
                         </li>
-                        <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Acount</button>
+                        <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Account</button>
 
                     </ul>
 
@@ -40,4 +40,5 @@ export default class Navbar extends Component {
 
         )
     }
-} 
+
+export default Navbar

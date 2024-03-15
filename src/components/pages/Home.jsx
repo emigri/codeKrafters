@@ -1,21 +1,22 @@
-import React, { Component} from 'react';
+
 import Slider from './Slider' 
 
-export default class Home extends Component {
-    render() {
+function Home () {
+    
         return (
             // Home Content 
             //-------------
-
-            // Slider
+            <>
+            {/*  Slider */}
             <Slider></Slider>
 
 
-            // Carousel
+            {/* Carousel */}
 
-            // Product (Cards)
+            {/*  Product (Cards) */}
 
-            // Meet our Team
+            {/* Meet our Team */}
+            </>
         )
     }
-}
+    export default Home;
