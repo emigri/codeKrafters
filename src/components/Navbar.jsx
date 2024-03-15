@@ -7,7 +7,14 @@ import { Link } from 'react-router-dom';
 
  function Navbar() {
    
-   
+    const navLinks = [
+        {title: 'Home', path: '/'},
+        {title: 'Product', path: '/product'},
+        {title: 'About', path: '/about'},
+        {title: 'Contact', path: '/contact'},
+        {title: 'Basket', path: '/basket'},
+
+]
         return (
             <div className='w-full fixed'>
                 <div className='md:px-10 py-4 px-7 flex justify-between items-center bg-blue-100'>
@@ -17,18 +24,12 @@ import { Link } from 'react-router-dom';
                     </div>
                    
                     <ul className='flex pl-5'>
-                        <li className='font-semibold'>
-                            <Link to='/'>Home</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/product'>Product</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/about'>About</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/contact'>Contact</Link>
-                        </li>
+                    {navLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Link className="font-semibold" to={link.path}>{link.title}</Link>
+                                </li>
+                            ))
+                        }
                         <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Account</button>
 
                     </ul>
