@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import Navbar from "./components/Navbar";
 import Home from './components/pages/Home';
-import Product from './components/pages/Product';
+import Product from './components/pages/Product-Card';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import './App.css'
@@ -10,8 +10,8 @@ import Products from './components/Products.json';
 import SiteContent from './components/SiteContent.json';
 
 
-export default class App extends Component {
-  render() {
+ function App (){
+ 
     return (
       <>
       <h1 className="text-3xl font-bold underline">Sample Text</h1>
@@ -20,4 +20,4 @@ export default class App extends Component {
       </>
     )
   }
-}
+  export default App;

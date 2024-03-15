@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,8 +13,8 @@ import '../../App.css';
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
-export default class Slider extends Component  {
-    render() {
+function Slider() {
+    
         return (
             // Slider
             <>
@@ -39,4 +39,5 @@ export default class Slider extends Component  {
     </>
         )
     }
-}
+
+    export default Slider;

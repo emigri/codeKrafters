@@ -1,10 +1,10 @@
 
 
-function Basket (){
+function ProductDetails(){
 
     return (
         <h1>sample contact</h1>
     );
 }
 
-export default Basket;
+export default ProductDetails;
