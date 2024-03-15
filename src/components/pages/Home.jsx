@@ -6,16 +6,15 @@ function Home () {
         return (
             // Home Content 
             //-------------
+            //slider
+            //carousel
+            //product (cards)
+           
             <>
-            {/*  Slider */}
+           
             <Slider></Slider>
 
-
-            {/* Carousel */}
-
-            {/*  Product (Cards) */}
-
-            {/* Meet our Team */}
+          
             </>
         )
     }

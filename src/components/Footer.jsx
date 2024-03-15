@@ -4,7 +4,7 @@ import './SiteContent.json';
  function Footer () {
  
         return (
-            // Footer Content 
+            <h1>sample contact</h1>
         )
     }
 

@@ -4,7 +4,7 @@ import Navbar from '../Navbar';
  function About (){
 
         return (
-            // About Content 
+            <h1>sample contact</h1>
         );
     }
 
