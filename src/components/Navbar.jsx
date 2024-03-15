@@ -6,6 +6,14 @@ import React, { Component} from 'react';
 
 
 export default class Navbar extends Component {
+    const navLinks = [
+            {title: 'Home', path: '/'},
+            {title: 'Product', path: '/product'},
+            {title: 'About', path: '/about'},
+            {title: 'Contact', path: '/contact'},
+            {title: 'Basket', path: '/basket'},
+      
+    ]
    
     render() {
         return (
@@ -17,22 +25,14 @@ export default class Navbar extends Component {
                     </div>
                     {/* nav links*/}
                     <ul className='flex pl=5'>
-                        <li className='font-semibold'>
-                            <Link to='/'>Home</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/product'>Product</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/about'>About</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/contact'>Contact</Link>
-                        </li>
-                        <li className='font-semibold'>
-                            <Link to='/basket'>Basket</Link>
-                        </li>
-                        <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Acount</button>
+
+                        {navLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Link className="font-semibold" to={link.path}>{link.title}</Link>
+                                </li>
+                            ))
+                        }
+                        <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Account</button>
 
                     </ul>
 
