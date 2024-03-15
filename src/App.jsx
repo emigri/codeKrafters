@@ -14,8 +14,19 @@ import SiteContent from './components/SiteContent.json';
  
     return (
       <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Contact ' element={<Contact />} />
+          <Route path='/Basket ' element={<Basket />} />
+          <Route path='/ProductCatalogue ' element={<ProductCatalogue />} />
+
+        </Routes>
+      </Router>
       <h1 className="text-3xl font-bold underline">Sample Text</h1>
-      {/* <Navbar/> */}
+  
       <Home></Home>
       </>
     )
