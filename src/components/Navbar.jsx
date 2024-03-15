@@ -29,6 +29,9 @@ export default class Navbar extends Component {
                         <li className='font-semibold'>
                             <Link to='/contact'>Contact</Link>
                         </li>
+                        <li className='font-semibold'>
+                            <Link to='/basket'>Basket</Link>
+                        </li>
                         <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Acount</button>
 
                     </ul>
