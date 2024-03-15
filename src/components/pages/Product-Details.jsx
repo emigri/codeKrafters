@@ -7,4 +7,4 @@ function ProductDetails(){
     );
 }
 
-export default Product;
+export default ProductDetails;
