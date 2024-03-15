@@ -21,7 +21,7 @@ export default class Navbar extends Component {
                             <Link to='/'>Home</Link>
                         </li>
                         <li className='font-semibold'>
-                            <Link to='/prouduct'>Prouduct</Link>
+                            <Link to='/product'>Product</Link>
                         </li>
                         <li className='font-semibold'>
                             <Link to='/about'>About</Link>
