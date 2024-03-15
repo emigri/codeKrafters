@@ -1,17 +1,12 @@
 import React, { Component} from 'react';
+// import { Link } from 'react-router-dom';
+
 // import "./styles/style.css";
 
 
 
 export default class Navbar extends Component {
-    let Links = [
-        {name: 'Home', link:'/' },
-        {name: 'Service', link:'/' },
-        {name: 'Contact', link:'/' }
-           
-    ]
-
-
+   
     render() {
         return (
             <div className='w-full fixed'>
@@ -22,13 +17,18 @@ export default class Navbar extends Component {
                     </div>
                     {/* nav links*/}
                     <ul className='flex pl=5'>
-                        {
-                            Links.map(link => (
-                                <li className='font-semibold'>
-                                    <a href='/'>{link.name}</a>
-                                </li>
-                            ))
-                        }
+                        <li className='font-semibold'>
+                            <Link to='/'>Home</Link>
+                        </li>
+                        <li className='font-semibold'>
+                            <Link to='/prouduct'>Prouduct</Link>
+                        </li>
+                        <li className='font-semibold'>
+                            <Link to='/about'>About</Link>
+                        </li>
+                        <li className='font-semibold'>
+                            <Link to='/contact'>Contact</Link>
+                        </li>
                         <button onClick className='btn bg-sky-400 hover:bg-sky-700 text-white rounded '>Acount</button>
 
                     </ul>
@@ -40,3 +40,4 @@ export default class Navbar extends Component {
 
         )
     }
+} 
