@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import "./styles/style.css";
+// import "./styles/style.css";
 
 
 
@@ -7,10 +7,8 @@ export default class Navbar extends Component {
     let Links = [
         {name: 'Home', link:'/' },
         {name: 'Service', link:'/' },
-        {name: 'About', link:'/' },
-        {name: 'Contact', link:'/' },
-        
-        
+        {name: 'Contact', link:'/' }
+           
     ]
 
 
@@ -42,4 +40,3 @@ export default class Navbar extends Component {
 
         )
     }
-}
