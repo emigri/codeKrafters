@@ -1,9 +1,10 @@
-import React, { Component} from 'react';
-export default class Carousel extends Component  {
-    render() {
-        return (
-            // Carousel
 
-        )
-    }
+
+function Carousel (){
+
+    return (
+        <h1>sample contact</h1>
+    );
 }
+
+export default Carousel;

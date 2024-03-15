@@ -1,10 +1,11 @@
-import React, { Component} from 'react';
+
 import './SiteContent.json';
 
-export default class Footer extends Component {
-    render() {
+ function Footer () {
+ 
         return (
-            // Footer Content 
+            <h1>sample contact</h1>
         )
     }
-}
+
+export default Footer;
