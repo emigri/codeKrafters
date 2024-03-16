@@ -15,6 +15,16 @@ function Home () {
     // Initialise state of the Site Content Data json (single object)
     const [siteContent, setSiteContent] = useState(SiteContentData);
 
+    // View selecteed Product
+    const viewSelectedProduct = (id) => {
+        console.log("Test - viewSelectedProduct")
+        // Filter Projects array (remove item which matches the id)
+        // const newProducts = products.filter((item) => item.id !== id);
+        // Set new Projects array
+        // setProducts(newProducts);
+    };
+
+
     console.log(products)
 
         return (
@@ -31,6 +41,7 @@ function Home () {
             <Wrapper>
             {products.map((item) => (
                 <ProductCard
+                viewSelectedProduct={viewSelectedProduct}
                 id={item.id}
                 key={item.id}
                 name={item.name}
