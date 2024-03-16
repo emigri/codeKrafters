@@ -11,7 +11,7 @@ function Navbar() {
     { title: "Basket", path: "/basket" }
   ];
   return (
-    <div className="w-full fixed">
+    <div className="w-full">
       <div className="md:px-10 py-4 px-7 flex justify-between items-center bg-blue-100">
         <div className="flex text-2xl cursor-pointer items-center gap-1">
           <span className="font-bold">codeKrafters</span>
