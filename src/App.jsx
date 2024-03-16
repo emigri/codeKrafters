@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
-import Product from "./components/pages/Product-Card";
 import ProductCatalogue from "./components/pages/Product-Catalogue";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Basket from "./components/pages/Basket";
+import Footer from "./components/Footer";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Products from "./components/Products.json";
-import SiteContent from "./components/SiteContent.json";
+// import Product from "./components/pages/Product-Card";
+// import Products from "./components/Products.json";
+// import SiteContent from "./components/SiteContent.json";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
       <Home></Home>
+      <Footer></Footer>
     </>
   );
 }
