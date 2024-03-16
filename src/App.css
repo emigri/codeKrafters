@@ -81,7 +81,7 @@
 
 /* Product Cards */
 .productCard {
-  padding: 2em;
+  padding: 0em;
 }
 
 .productCard {
@@ -102,7 +102,7 @@
   background:#6CADDC;
 }
 .productCard > .img-container > img {
-  width: 60%
+  width: 100%
 }
 
 .productCard > .content {
@@ -119,15 +119,24 @@
   margin-top: 18px;
 }
 
-.productCard > .remove {
-  color: #ff1744;
-  font-size: 48px;
+.productCard > .viewSelectedProduct {
+  color: blue;
+  font-size: 15;
   position: absolute;
-  top: -20px;
-  right: 5px;
+  bottom: +20px;
+  left: 50%;
   cursor: pointer;
+  border: 1px;
+
+
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
 
-.productCard > .remove:hover {
+.productCard > .viewSelectedProduct:hover {
   color: #d50000;
 }

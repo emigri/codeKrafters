@@ -18,7 +18,9 @@ function ProductCard(props) {
           </li>
         </ul>
       </div>
-
+      <span onClick={() => props.viewSelectedProduct(props.id)} className="viewSelectedProduct">
+        <button className="button">View Product</button>   
+      </span>
     </div>
   );
 }
