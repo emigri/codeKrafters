@@ -1,10 +1,26 @@
+import React from "react";
+import '../../App.css';
 
 
-function ProductCard(){
+function ProductCard(props) {
+  return (
+    <div className="card productCard">
+      <div className="img-container">
+        <img alt={props.name} src={props.image1} />
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Product:</strong> {props.name}
+          </li>
+          <li>
+            <strong>Description:</strong> {props.description}
+          </li>
+        </ul>
+      </div>
 
-    return (
-        <h1>sample contact</h1>
-    );
+    </div>
+  );
 }
 
 export default ProductCard;
