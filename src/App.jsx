@@ -8,6 +8,7 @@ import Basket from "./components/pages/Basket";
 import Footer from "./components/Footer";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MeetOurTeam from "./components/pages/MeetOurTeam";
 // import Product from "./components/pages/Product-Card";
 // import Products from "./components/Products.json";
 // import SiteContent from "./components/SiteContent.json";
@@ -28,6 +29,8 @@ function App() {
       <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
       <Home></Home>
+      <MeetOurTeam></MeetOurTeam>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );
