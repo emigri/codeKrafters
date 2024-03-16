@@ -29,8 +29,11 @@ function App() {
       <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
       <Home></Home>
+
       <MeetOurTeam></MeetOurTeam>
+
       <Contact></Contact>
+
       <Footer></Footer>
     </>
   );
