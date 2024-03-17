@@ -29,12 +29,8 @@ function App() {
           <Route path="/ProductCatalogue " element={<ProductCatalogue />} />
         </Routes>
       </Router>
-      <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
 
-      <MeetOurTeam></MeetOurTeam>
-
-      <Contact></Contact>
 
       <Footer></Footer>
     </>
