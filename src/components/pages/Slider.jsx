@@ -13,10 +13,14 @@ import '../../App.css';
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
-function Slider() {
+import siteContent from '../SiteContent.json';
+import { useState } from 'react'
+
+
+function Slider(props) {
     
         return (
-            // Slider
+            
             <>
       <Swiper
         pagination={{
@@ -26,15 +30,24 @@ function Slider() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+        <img src={props.slider_image1}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={props.slider_image2}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={props.slider_image3}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={props.slider_image4}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={props.slider_image5}></img>
+          </SwiperSlide>
+        <SwiperSlide>
+          <img src={props.slider_image6}></img>
+          </SwiperSlide>
       </Swiper>
     </>
         )

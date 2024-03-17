@@ -1,11 +1,8 @@
 import { useState } from 'react'
 
 import Slider from './Slider' 
-import Introduction from './Introduction';
 import Wrapper from './Wrapper' 
 import ProductCard from './Product-Card';
-import MeetOurTeam from "./MeetOurTeam";
-import Contact from "./Contact";
 
 import ProductsData from '../Products.json';
 import SiteContentData from '../SiteContent.json';
@@ -27,51 +24,40 @@ function Home () {
         // setProducts(newProducts);
     };
 
-    // console.log(products)
-    // console.log(siteContent)
 
+    console.log(products)
 
         return (
-            // Home Page content 
-            //------------------
-            // Slider
-            // Introduction
-            // Products (cards)
-            // Meet our team
-            // Contact (this should be its own Page)
+            // Home Content 
+            //-------------
+            //slider
+            //carousel
+            //product (cards)
            
             <>
             
             <Slider 
-                slider_image1={siteContent.slider_image1} 
-                slider_image2={siteContent.slider_image2} 
-                slider_image3={siteContent.slider_image3} 
-                slider_image4={siteContent.slider_image4} 
-            />
-
-            <Introduction 
-                our_services={siteContent.our_services} 
-                our_model={siteContent.our_model} 
-                our_prices={siteContent.our_prices} 
+            slider_image1={siteContent.slider_image1}
+            slider_image2={siteContent.slider_image2} 
+            slider_image3={siteContent.slider_image3} 
+            slider_image4={siteContent.slider_image4} 
+            slider_image5={siteContent.slider_image5} 
+            slider_image6={siteContent.slider_image6}
             />
 
             <Wrapper>
             {products.map((item) => (
                 <ProductCard
-                    viewSelectedProduct={viewSelectedProduct}
-                    id={item.id}
-                    key={item.id}
-                    name={item.name}
-                    image1={item.image1}
-                    description={item.description}
-                />
-            ))}
+                viewSelectedProduct={viewSelectedProduct}
+                id={item.id}
+                key={item.id}
+                name={item.name}
+                image1={item.image1}
+                description={item.description}
+            />))}
             </Wrapper>
 
-            <MeetOurTeam />
-
-            <Contact />
-
+          
             </>
         )
     }
