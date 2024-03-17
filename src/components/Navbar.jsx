@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { CodeBracketIcon } from '@heroicons/react/24/solid'
 
 // import "./styles/style.css";
 
@@ -11,9 +12,11 @@ function Navbar() {
     { title: "Basket", path: "/basket" }
   ];
   return (
-    <div className="w-full">
+    <div className="shadow-md w-full">
       <div className="md:px-10 py-4 px-7 flex justify-between items-center bg-blue-100">
-        <div className="flex text-2xl cursor-pointer items-center gap-1">
+       {/* logo  */}
+        <div className="flex text-2xl cursor-pointer items-center gap-2">
+          <CodeBracketIcon className="w-7 h-7 text-blue-600"/>
           <span className="font-bold">codeKrafters</span>
         </div>
 
@@ -30,7 +33,7 @@ function Navbar() {
           </button>
         </ul>
       </div>
-    </div>
+    </div>   
   );
 }
 
