@@ -100,9 +100,11 @@
   overflow: hidden;
   text-align: center;
   background:#6CADDC;
+  object-fit: cover;
 }
 .productCard > .img-container > img {
-  width: 100%
+  /* height: fit-content; */
+  width: 100%;  
 }
 
 .productCard > .content {
@@ -116,24 +118,31 @@
 }
 
 .productCard > .content > ul > li {
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
 .productCard > .viewSelectedProduct {
   color: blue;
   font-size: 15;
   position: absolute;
-  bottom: +20px;
+  bottom: +10px;
   left: 50%;
   cursor: pointer;
   border: 1px;
 
 
   margin: 0;
-  position: absolute;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+  background-color: orangered;
+  background-image: none;
+  border-color: black;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+
+  color: white;
+  padding: 5px 32px;
 
 }
 
