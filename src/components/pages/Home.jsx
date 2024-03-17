@@ -6,6 +6,8 @@ import ProductCard from './Product-Card';
 
 import ProductsData from '../Products.json';
 import SiteContentData from '../SiteContent.json';
+import Introduction from './Introduction';
+import MeetOurTeam from './MeetOurTeam';
 
 
 function Home () {
@@ -45,6 +47,12 @@ function Home () {
             slider_image6={siteContent.slider_image6}
             />
 
+            <Introduction
+            our_services={siteContent.our_services}
+            our_model={siteContent.our_model} 
+            our_prices={siteContent.our_prices} 
+            />
+
             <Wrapper>
             {products.map((item) => (
                 <ProductCard
@@ -57,6 +65,7 @@ function Home () {
             />))}
             </Wrapper>
 
+            <MeetOurTeam></MeetOurTeam>
           
             </>
         )
