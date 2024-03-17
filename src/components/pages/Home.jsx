@@ -6,6 +6,8 @@ import ProductCard from './Product-Card';
 
 import ProductsData from '../Products.json';
 import SiteContentData from '../SiteContent.json';
+import Introduction from './Introduction';
+import MeetOurTeam from './MeetOurTeam';
 
 
 function Home () {
@@ -36,7 +38,20 @@ function Home () {
            
             <>
             
-            <Slider>{siteContent}</Slider>
+            <Slider 
+            slider_image1={siteContent.slider_image1}
+            slider_image2={siteContent.slider_image2} 
+            slider_image3={siteContent.slider_image3} 
+            slider_image4={siteContent.slider_image4} 
+            slider_image5={siteContent.slider_image5} 
+            slider_image6={siteContent.slider_image6}
+            />
+
+            <Introduction
+            our_services={siteContent.our_services}
+            our_model={siteContent.our_model} 
+            our_prices={siteContent.our_prices} 
+            />
 
             <Wrapper>
             {products.map((item) => (
@@ -50,6 +65,7 @@ function Home () {
             />))}
             </Wrapper>
 
+            <MeetOurTeam></MeetOurTeam>
           
             </>
         )

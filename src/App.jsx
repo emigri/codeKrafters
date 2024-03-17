@@ -13,7 +13,11 @@ import MeetOurTeam from "./components/pages/MeetOurTeam";
 // import Products from "./components/Products.json";
 // import SiteContent from "./components/SiteContent.json";
 
+
+
+
 function App() {
+
   return (
     <>
       <Router>
@@ -26,13 +30,8 @@ function App() {
           <Route path="/ProductCatalogue " element={<ProductCatalogue />} />
         </Routes>
       </Router>
-      <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
-      <Home></Home>
 
-      <MeetOurTeam></MeetOurTeam>
-
-      <Contact></Contact>
 
       <Footer></Footer>
     </>
