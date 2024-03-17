@@ -45,6 +45,8 @@ function Home () {
             <Slider 
                 slider_image1={siteContent.slider_image1} 
                 slider_image2={siteContent.slider_image2} 
+                slider_image3={siteContent.slider_image3} 
+                slider_image4={siteContent.slider_image4} 
             />
 
             <Introduction 
@@ -56,18 +58,19 @@ function Home () {
             <Wrapper>
             {products.map((item) => (
                 <ProductCard
-                viewSelectedProduct={viewSelectedProduct}
-                id={item.id}
-                key={item.id}
-                name={item.name}
-                image1={item.image1}
-                description={item.description}
-            />))}
+                    viewSelectedProduct={viewSelectedProduct}
+                    id={item.id}
+                    key={item.id}
+                    name={item.name}
+                    image1={item.image1}
+                    description={item.description}
+                />
+            ))}
             </Wrapper>
 
-            <MeetOurTeam></MeetOurTeam>
+            <MeetOurTeam />
 
-            <Contact></Contact>
+            <Contact />
 
             </>
         )

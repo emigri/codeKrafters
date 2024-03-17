@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Cashflow Management",
+    "name": "Cashflow Management systems",
     "description": "Manage your finances quickly and efficiently while gaining greater insight into your business",
     "features": [
       "Easy cashflow management", 
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "name": "Stock Inventory",
+    "name": "Stock Inventory systems",
     "description": "Keep track of your assets and avoid becoming undersocked or overstocked",
     "features": [
       "Easy stock inventory tracking", 
@@ -38,7 +38,7 @@
   },
   {
     "id": 3,
-    "name": "Customer Management",
+    "name": "Customer Management systems",
     "description": "Manage your customer relations. Know your customers and support their needs",
     "features": [
       "Easy customer management", 
@@ -57,7 +57,7 @@
   },
   {
     "id": 4,
-    "name": "Vehicle Tracking",
+    "name": "Vehicle Tracking systems",
     "description": "Manage all of your vehicles and keep track of your fleet",
     "features": [
       "Easy vehicle tracking", 
@@ -77,7 +77,7 @@
   {
     "id": 5,
     "name": "Custom Development",
-    "description": "Tell us your requirements and we will design and build a fully bespoke application for your needs",
+    "description": "Tell us your precise requirements and we will design and build a fully bespoke system for your needs",
     "features": [
         "Bespoke development tailored for you and your precise requirements",
         "Speak with our team to discuss your ideal application",
@@ -93,7 +93,7 @@
   {
     "id": 6,
     "name": "User Support (pre-booked)",
-    "description": "Let us support you and your team as you explore and use our applications",
+    "description": "Let us support you and your team as you explore and use our systems",
     "features": [
       "Friendly, helpful and knowledgeable support",
       "Telephone support available during standard business hours (UK)",
