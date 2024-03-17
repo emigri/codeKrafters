@@ -4,10 +4,10 @@ import "../App.css";
 function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
-    { title: "Products", path: "/products" },
-    { title: "About", path: "/about" },
-    { title: "Contact Us", path: "/contact" },
-    { title: "Basket", path: "/basket" }
+    { title: "Product", path: "/ProductCatalogue" },
+    { title: "About", path: "/About" },
+    { title: "Contact", path: "/Contact" },
+    { title: "Basket", path: "/Basket" }
   ];
   return (
     <div className="w-full">
