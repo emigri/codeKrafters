@@ -11,15 +11,15 @@ function ProductCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Product:</strong> {props.name}
+            <strong>{props.name}</strong> 
           </li>
           <li>
-            <strong>Description:</strong> {props.description}
+            {props.description}
           </li>
         </ul>
       </div>
       <span onClick={() => props.viewSelectedProduct(props.id)} className="viewSelectedProduct">
-        <button className="button">View Product</button>   
+        <button className="button">View Details</button>   
       </span>
     </div>
   );

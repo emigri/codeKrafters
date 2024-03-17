@@ -73,7 +73,7 @@
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 20px;
+  padding: 10px;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
@@ -106,9 +106,9 @@
 }
 
 .productCard > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 18px;
 }
 
 .productCard > .content > ul {
