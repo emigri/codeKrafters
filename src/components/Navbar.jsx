@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
-    { title: "Product", path: "/product" },
-    { title: "About", path: "/about" },
-    { title: "Contact", path: "/contact" },
-    { title: "Basket", path: "/basket" }
+    { title: "Product", path: "/ProductCatalogue" },
+    { title: "About", path: "/About" },
+    { title: "Contact", path: "/Contact" },
+    { title: "Basket", path: "/Basket" }
   ];
   return (
     <div className="w-full">
