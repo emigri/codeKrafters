@@ -5,6 +5,7 @@ import ProductCatalogue from "./components/pages/Product-Catalogue";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Basket from "./components/pages/Basket";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -15,26 +16,25 @@ import MeetOurTeam from "./components/pages/MeetOurTeam";
 
 
 
+
 function App() {
 
   return (
     <>
+      <Header></Header>
+
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Contact " element={<Contact />} />
-          <Route path="/Basket " element={<Basket />} />
-          <Route path="/ProductCatalogue " element={<ProductCatalogue />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Basket" element={<Basket />} />
+          <Route path="/ProductCatalogue" element={<ProductCatalogue />} />
         </Routes>
       </Router>
-      <h1 className="text-3xl font-bold underline">Sample Text</h1>
 
 
-      <MeetOurTeam></MeetOurTeam>
-
-      <Contact></Contact>
 
       <Footer></Footer>
     </>

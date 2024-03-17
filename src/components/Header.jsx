@@ -3,7 +3,7 @@
 function Header(){
 
     return (
-        <h1>sample contact</h1>
+        <h1>Header goes here....</h1>
     );
 }
 
