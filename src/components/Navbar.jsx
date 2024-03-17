@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-
-// import "./styles/style.css";
+import "../App.css";
 
 function Navbar() {
   const navLinks = [
@@ -29,6 +28,7 @@ function Navbar() {
             Account
           </button>
         </ul>
+
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import ProductCatalogue from "./components/pages/Product-Catalogue";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Basket from "./components/pages/Basket";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -20,6 +21,8 @@ function App() {
 
   return (
     <>
+      <Header></Header>
+
       <Router>
         <Navbar />
         <Routes>
