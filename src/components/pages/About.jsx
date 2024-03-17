@@ -1,10 +1,8 @@
 
-import Navbar from '../Navbar';
-
  function About (){
 
         return (
-            <h1>sample contact</h1>
+            <h1>sample About</h1>
         );
     }
 

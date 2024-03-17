@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
-
-// import "./styles/style.css";
+import "../App.css";
 
 function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
-    { title: "Product", path: "/product" },
+    { title: "Products", path: "/products" },
     { title: "About", path: "/about" },
-    { title: "Contact", path: "/contact" },
+    { title: "Contact Us", path: "/contact" },
     { title: "Basket", path: "/basket" }
   ];
   return (
@@ -29,6 +28,7 @@ function Navbar() {
             Account
           </button>
         </ul>
+
       </div>
     </div>
   );
