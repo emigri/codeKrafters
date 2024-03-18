@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../App.css";
 import { CodeBracketIcon } from '@heroicons/react/24/solid'
+import { ShoppingCartIcon } from '@heroicons/react/24/solid'
 
 // import "./styles/style.css";
 
@@ -10,29 +11,37 @@ function Navbar() {
     { title: "Product", path: "/ProductCatalogue" },
     { title: "About", path: "/About" },
     { title: "Contact", path: "/Contact" },
-    { title: "Basket", path: "/Basket" }
+   
   ];
   return (
-    <div className="shadow-md w-full">
-      <div className="md:px-10 py-4 px-7 flex justify-between items-center bg-blue-100">
+    <div className="shadow-md w-full fixed top-0 left-0">
+      <div className="md:px-10  py-4 px-7 md:flex justify-between items-center bg-blue-100">
        {/* logo  */}
         <div className="flex text-2xl cursor-pointer items-center gap-2">
           <CodeBracketIcon className="w-7 h-7 text-blue-600"/>
           <span className="font-bold">codeKrafters</span>
         </div>
+         {/* Basket Icon */}
+         <div className="flex text-2xl cursor-pointer items-center gap-2 ml-auto">
+          <Link to="/Basket">
+            <ShoppingCartIcon className="w-7 h-7 text-blue-600"/>
+         </Link>
+      
+        </div>
 
-        <ul className="flex pl-5">
+       {/* Navigation Links */}
+        <ul className="flex space-x-7">
           {navLinks.map((link, index) => (
-            <li key={index}>
+            <li className=" font-semibold my-7 md:my-0 md:ml-7" key={index}>
               <Link className="font-semibold" to={link.path}>
                 {link.title}
               </Link>
             </li>
           ))}
-          <button className="btn bg-sky-400 hover:bg-sky-700 text-white rounded ">
-            Account
-          </button>
+          
         </ul>
+        
+
 
       </div>
     </div>   
