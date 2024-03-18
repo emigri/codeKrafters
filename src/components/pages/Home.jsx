@@ -1,29 +1,33 @@
 import { useState } from 'react'
 
+import ProductsData from '../Products.json';
+import SiteContentData from '../SiteContent.json';
+
 import Slider from './Slider' 
 import Wrapper from './Wrapper' 
 import ProductCard from './Product-Card';
-
-import ProductsData from '../Products.json';
-import SiteContentData from '../SiteContent.json';
+import ProductDetails from './Product-Details';
 import Introduction from './Introduction';
 import MeetOurTeam from './MeetOurTeam';
 
 
 function Home () {
-    
+
     // Initialise state of the Product Data json (array of objects)
     const [products, setProducts] = useState(ProductsData);
+    
     // Initialise state of the Site Content Data json (single object)
     const [siteContent, setSiteContent] = useState(SiteContentData);
 
-    // View selecteed Product
+    // Initialise Product Details modal/popup
+    const [openModal_ProductDetails, setOpenModal_ProductDetails,] = useState(false);
+    
+
+    // View Product Details (of selected product)
     const viewSelectedProduct = (id) => {
-        console.log("Test - viewSelectedProduct")
-        // Filter Projects array (remove item which matches the id)
-        // const newProducts = products.filter((item) => item.id !== id);
-        // Set new Projects array
-        // setProducts(newProducts);
+
+        // Make the Product Details modal visible
+        setOpenModal_ProductDetails(true)
     };
 
 
@@ -63,10 +67,15 @@ function Home () {
                 image1={item.image1}
                 description={item.description}
             />))}
-            </Wrapper>
-
-            <MeetOurTeam></MeetOurTeam>
+            </Wrapper>    
           
+            <ProductDetails 
+            open={openModal_ProductDetails} 
+            onClose={() => setOpenModal_ProductDetails(false)} 
+            />
+   
+           <MeetOurTeam></MeetOurTeam>
+
             </>
         )
     }
