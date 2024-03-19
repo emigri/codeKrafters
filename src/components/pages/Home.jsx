@@ -13,32 +13,34 @@ import MeetOurTeam from './MeetOurTeam';
 
 function Home () {
 
-    // Initialise state of the Product Data json (array of objects)
-    const [products, setProducts] = useState(ProductsData);
-    
-    // Initialise state of the Site Content Data json (single object)
+    // Initialise state of the Site Content Data json (single site content object)
     const [siteContent, setSiteContent] = useState(SiteContentData);
 
-    // Initialise Product Details modal/popup
+    // Initialise state of the Product Data json (array of product objects)
+    const [products, setProducts] = useState(ProductsData);
+
+    // Initialise state of the Selected Product (for display in the Product Details Modal)
+    const [selectedProduct, setSelectedProduct] = useState(ProductsData[0]);
+
+    // Initialise the Product Details Modal (popup)
     const [openModal_ProductDetails, setOpenModal_ProductDetails,] = useState(false);
+
     
 
-    // View Product Details (of selected product)
+    // View Selected Product in the Product Details Modal
     const viewSelectedProduct = (id) => {
 
-        // Make the Product Details modal visible
+        // Set data for the Product Details Modal
+        const newSelectedProduct = ProductsData.filter((item) => item.id === id);
+        setSelectedProduct(newSelectedProduct[0])
+
+        // Make the Product Details Modal visible
         setOpenModal_ProductDetails(true)
     };
 
 
-    console.log(products)
-
         return (
-            // Home Content 
-            //-------------
-            //slider
-            //carousel
-            //product (cards)
+            // Home Page content
            
             <>
             
@@ -72,9 +74,19 @@ function Home () {
             <ProductDetails 
             open={openModal_ProductDetails} 
             onClose={() => setOpenModal_ProductDetails(false)} 
+
+            id={selectedProduct.id}
+            name={selectedProduct.name}
+            description={selectedProduct.description}
+            features={selectedProduct.features}
+            image1={selectedProduct.image1}
+            image2={selectedProduct.image2}
+            websitePrice={selectedProduct.websitePrice}
+            mobilePrice={selectedProduct.mobilePrice}
+            developmentDays={selectedProduct.developmentDays}
             />
    
-           <MeetOurTeam></MeetOurTeam>
+            <MeetOurTeam></MeetOurTeam>
 
             </>
         )
