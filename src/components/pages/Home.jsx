@@ -44,7 +44,7 @@ function Home () {
            
             <>
             
-            <Slider 
+            <Slider
             slider_image1={siteContent.slider_image1}
             slider_image2={siteContent.slider_image2} 
             slider_image3={siteContent.slider_image3} 

@@ -22,6 +22,7 @@ function Slider(props) {
         return (
             
             <>
+            <div className='mt-11 border  shadow hover:shadow-xl'>
       <Swiper
         pagination={{
           type: 'fraction',
@@ -49,6 +50,7 @@ function Slider(props) {
           <img src={props.slider_image6}></img>
           </SwiperSlide>
       </Swiper>
+      </div>
     </>
         )
     }
