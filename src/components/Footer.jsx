@@ -3,26 +3,32 @@ import "../styles/style.css";
 
 function Footer() {
   return (
-    <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-      <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <footer className=" shadow-md w-full bottom-0 left-0 z-50">
+      <div className=" w-full md:px-10  py-4 px-7 md:flex justify-between items-center bg-blue-100">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline text-blue-800 gap-2">
             Code Krafters
           </a>
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">
+            <a
+              href="#"
+              className="hover:underline text-blue-800 gap-2 me-4 md:me-6"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">
+            <a
+              href="#"
+              className="hover:underline text-blue-800 gap-2 me-4 md:me-6"
+            >
               Products
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline text-blue-800 gap-2">
               Contact
             </a>
           </li>
