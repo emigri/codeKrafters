@@ -3,7 +3,7 @@
 function Carousel (){
 
     return (
-        <h1>sample contact</h1>
+        <h1>sample Carousel</h1>
     );
 }
 

@@ -3,7 +3,7 @@
 function ProductCatalogue (){
 
     return (
-        <h1>sample contact</h1>
+        <h1>sample Product Catalogue</h1>
     );
 }
 

@@ -1,25 +1,31 @@
 {
-    "banner": "Banner text  goes .........................",
-    "our_services": "Our team of developers are dedicated to creating and supporting powerful but easy-to-use websites and mobile applications for todays business needs",
-    "our_model" : "By using pre-designed modular products which are tailored to your requirements (and which integrate with each other) we can offer you excellent systems at affordable prices",
-    "our_prices" : "Select one or more of our products. Each comes with a generous number of development days which we use to configure and tailor your product to your precise needs. Additional development days can be purchased if required (contact us for details)",
-    
-    "contact_phone": "+44 (0)276 286 2761",
-    "contact_email": "codeKrafters@cK.co.uk",
-    "address": {
-      "line1": "24 Park Square", 
-      "line2": "Mayfair",
-      "city": "London",
-      "postal_code": "W1 2EQ"
-    },
-    
-    "developers": [
-      "Niloufar Oshaghi",
-      "Kazim Ozdil",      
-      "Emily Grivot",      
-      "Kacper Wolak",
-      "Steve Hannay"
-    ],
-    "aboutUs": "About Us text goes here......"
-}
+  "banner": "Banner text  goes .........................",
+  "our_services": "Our team of developers are dedicated to creating and supporting powerful but easy-to-use websites and mobile applications for todays business needs",
+  "our_model" : "By using pre-designed modular systems which are tailored to your requirements (and which integrate with each other) we can offer you excellence at affordable prices",
+  "our_prices" : "Select one or more of our systems. Each comes with a generous number of development days which we use to configure and tailor your system to your needs. Additional development days can be purchased if required (contact us for details)",
+  
+  "slider_image1" : "/images/CreditCardSale1.jpg",
+  "slider_image2" : "/images/CreditCardSale2.jpg",
+  "slider_image3" : "/images/Warehouse1.jpg",
+  "slider_image4" : "/images/Warehouse2.jpg",
+  "slider_image5" : "/images/Customer1.jpg",
+  "slider_image6" : "/images/Customer2.jpg",
 
+  "contact_phone": "+44 (0)276 286 2761",
+  "contact_email": "codeKrafters@cK.co.uk",
+  "address": {
+    "line1": "24 Park Square", 
+    "line2": "Mayfair",
+    "city": "London",
+    "postal_code": "W1 2EQ"
+  },
+  
+  "developers": [
+    "Niloufar Oshaghi",
+    "Kazim Ozdil",      
+    "Emily Grivot",      
+    "Kacper Wolak",
+    "Steve Hannay"
+  ],
+  "aboutUs": "About Us text goes here......"
+}

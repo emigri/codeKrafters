@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Cashflow Management",
+    "name": "Cashflow Management systems",
     "description": "Manage your finances quickly and efficiently while gaining greater insight into your business",
     "features": [
       "Easy cashflow management", 
@@ -11,16 +11,16 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "../public/images/CreditCardSale1.jpg",
-    "image2": "../public/images/CreditCardSale2.jpg",
-    "WebsitePrice" : "4000.00",
-    "MobilePrice": "3500.00",
-    "DevelopmentDays" : 4
+    "image1": "/images/CreditCardSale1.jpg",
+    "image2": "/images/CreditCardSale2.jpg",
+    "websitePrice" : "4000",
+    "mobilePrice": "3500",
+    "developmentDays" : 4
   },
   {
     "id": 2,
-    "name": "Stock Inventory",
-    "description": "Keep track of your assets and avoid becoming undersocked or overstocked",
+    "name": "Stock Inventory systems",
+    "description": "Keep track of your assets and avoid becoming understocked or overstocked",
     "features": [
       "Easy stock inventory tracking", 
       "Accurate forcasting of future demands (using your historical data)",
@@ -30,15 +30,15 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "../public/images/Warehouse1.jpg",
-    "image2": "../public/images/Warehouse2.jpg",
-    "WebsitePrice" : "5000.00",
-    "MobilePrice": "4500.00",
-    "DevelopmentDays" : 5
+    "image1": "/images/Warehouse1.jpg",
+    "image2": "/images/Warehouse2.jpg",
+    "websitePrice" : "5000",
+    "mobilePrice": "4500",
+    "developmentDays" : 5
   },
   {
     "id": 3,
-    "name": "Customer Management",
+    "name": "Customer Management systems",
     "description": "Manage your customer relations. Know your customers and support their needs",
     "features": [
       "Easy customer management", 
@@ -49,15 +49,15 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "../public/images/Customer1.jpg",
-    "image2": "../public/images/Customer2.jpg",
-    "WebsitePrice" : "4000.00",
-    "MobilePrice": "3500.00",
-    "DevelopmentDays" : 4
+    "image1": "/images/Customer1.jpg",
+    "image2": "/images/Customer2.jpg",
+    "websitePrice" : "4000",
+    "mobilePrice": "3500",
+    "developmentDays" : 4
   },
   {
     "id": 4,
-    "name": "Vehicle Tracking",
+    "name": "Vehicle Tracking systems",
     "description": "Manage all of your vehicles and keep track of your fleet",
     "features": [
       "Easy vehicle tracking", 
@@ -68,32 +68,32 @@
       "User customisable reporting and analytics",
       "Intuitive and easy to use"
       ],
-    "image1": "../public/images/DeliveryVan1.jpg",
-    "image2": "../public/images/DeliveryVan2.jpg",
-    "WebsitePrice" : "6000.00",
-    "MobilePrice": "5800.00",
-    "DevelopmentDays" : 6
+    "image1": "/images/DeliveryVan1.jpg",
+    "image2": "/images/DeliveryVan2.jpg",
+    "websitePrice" : "6000",
+    "mobilePrice": "5800",
+    "developmentDays" : 6
   },
   {
     "id": 5,
     "name": "Custom Development",
-    "description": "Tell us your requirements and we will design and build a fully bespoke application for your needs",
+    "description": "Tell us your precise requirements and we will design and build a fully bespoke system for your needs",
     "features": [
         "Bespoke development tailored for you and your precise requirements",
         "Speak with our team to discuss your ideal application",
         "If all your requirements are feasible, we can build it",
         "Priced on a Per Day basis"
       ],
-    "image1": "../public/images/Tailor1.jpg",
-    "image2": "../public/images/Tailor2.jpg",
-    "WebsitePrice" : "1000.00",
-    "MobilePrice": "850.00",
-    "DevelopmentDays" : 0
+    "image1": "/images/Tailor1.jpg",
+    "image2": "/images/Tailor2.jpg",
+    "websitePrice" : "1000",
+    "mobilePrice": "850",
+    "developmentDays" : 0
   },
   {
     "id": 6,
     "name": "User Support (pre-booked)",
-    "description": "Let us support you and your team as you explore and use our applications",
+    "description": "Let us support you and your team as you explore and use our systems",
     "features": [
       "Friendly, helpful and knowledgeable support",
       "Telephone support available during standard business hours (UK)",
@@ -101,11 +101,11 @@
       "Site visits (surcharge applicable)",
       "Priced on a Per Day basis"
       ],
-    "image1": "../public/images/UserSupport1.jpg",
-    "image2": "../public/images/UserSupport2.jpg",
-    "WebsitePrice" : "50.00",
-    "MobilePrice": "40.00",
-    "DevelopmentDays" : 0
+    "image1": "/images/UserSupport1.jpg",
+    "image2": "/images/UserSupport2.jpg",
+    "websitePrice" : "50",
+    "mobilePrice": "40",
+    "developmentDays" : 0
   }
 ]
   
