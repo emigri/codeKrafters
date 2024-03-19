@@ -13,14 +13,14 @@
       ],
     "image1": "/images/CreditCardSale1.jpg",
     "image2": "/images/CreditCardSale2.jpg",
-    "websitePrice" : "4000.00",
-    "mobilePrice": "3500.00",
+    "websitePrice" : "4000",
+    "mobilePrice": "3500",
     "developmentDays" : 4
   },
   {
     "id": 2,
     "name": "Stock Inventory systems",
-    "description": "Keep track of your assets and avoid becoming undersocked or overstocked",
+    "description": "Keep track of your assets and avoid becoming understocked or overstocked",
     "features": [
       "Easy stock inventory tracking", 
       "Accurate forcasting of future demands (using your historical data)",
@@ -32,8 +32,8 @@
       ],
     "image1": "/images/Warehouse1.jpg",
     "image2": "/images/Warehouse2.jpg",
-    "websitePrice" : "5000.00",
-    "mobilePrice": "4500.00",
+    "websitePrice" : "5000",
+    "mobilePrice": "4500",
     "developmentDays" : 5
   },
   {
@@ -51,8 +51,8 @@
       ],
     "image1": "/images/Customer1.jpg",
     "image2": "/images/Customer2.jpg",
-    "websitePrice" : "4000.00",
-    "mobilePrice": "3500.00",
+    "websitePrice" : "4000",
+    "mobilePrice": "3500",
     "developmentDays" : 4
   },
   {
@@ -70,8 +70,8 @@
       ],
     "image1": "/images/DeliveryVan1.jpg",
     "image2": "/images/DeliveryVan2.jpg",
-    "websitePrice" : "6000.00",
-    "mobilePrice": "5800.00",
+    "websitePrice" : "6000",
+    "mobilePrice": "5800",
     "developmentDays" : 6
   },
   {
@@ -86,8 +86,8 @@
       ],
     "image1": "/images/Tailor1.jpg",
     "image2": "/images/Tailor2.jpg",
-    "websitePrice" : "1000.00",
-    "mobilePrice": "850.00",
+    "websitePrice" : "1000",
+    "mobilePrice": "850",
     "developmentDays" : 0
   },
   {
@@ -103,8 +103,8 @@
       ],
     "image1": "/images/UserSupport1.jpg",
     "image2": "/images/UserSupport2.jpg",
-    "websitePrice" : "50.00",
-    "mobilePrice": "40.00",
+    "websitePrice" : "50",
+    "mobilePrice": "40",
     "developmentDays" : 0
   }
 ]
