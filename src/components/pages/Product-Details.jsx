@@ -1,7 +1,7 @@
 import React from 'react';
 
+const ProductDetails = ({ open, onClose, id, name, description, features, image1, image2, websitePrice, mobilePrice, developmentDays } ) => {
 
-const ProductDetails = ({ open, onClose }) => {
     if (!open) return null;
     return (
       <div onClick={onClose} className='modalOverlay'>
@@ -11,24 +11,32 @@ const ProductDetails = ({ open, onClose }) => {
           }}
           className='modalContainer'
         >
-          
-          <div className='modalRight'>
+          <img src={image1} alt='/' />
+
+          <div className='modalBody'>
             <p className='modalCloseBtn' onClick={onClose}>
               X
             </p>
-            <div className='content'>
-              <p>Do you want a</p>
-              <h1>$20 CREDIT</h1>
-              <p>for your first tade?</p>
+
+            <div className='modalContent'>
+              <h1>{name}</h1>
+              <p>{description}</p>
+              <p>{features}</p>
+
+              <p>{websitePrice}</p>              
+              <p>{mobilePrice}</p>
+              <p>{developmentDays}</p>
             </div>
-            <div className='btnContainer'>
-              <button className='btnPrimary'>
-                <span className='bold'>YES</span>, I love NFT's
+
+            <div className='modalBtnContainer'>
+              <button className='modalbtn1'>
+                <span className='bold'>Add to Basket</span>
               </button>
-              <button className='btnOutline'>
-                <span className='bold'>NO</span>, thanks
+              <button className='modalbtn2' onClick={onClose}>
+                <span className='bold'>Close</span>
               </button>
             </div>
+
           </div>
         </div>
       </div>
