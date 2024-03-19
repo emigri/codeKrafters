@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 import '../../App.css';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import siteContent from '../SiteContent.json';
 import { useState } from 'react'
@@ -26,8 +26,12 @@ function Slider(props) {
         pagination={{
           type: 'fraction',
         }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
