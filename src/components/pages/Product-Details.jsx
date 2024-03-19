@@ -53,10 +53,10 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
 
             <div className='modalBtnContainer'>
               <button className='modalbtn1'>
-                <span className='bold'>Contact Us</span>
+                <span className='bold'>Contact us to discuss</span>
               </button>
               <button className='modalbtn2' onClick={onClose}>
-                <span className='bold'>Close</span>
+                <span className='bold'>Continue browsing</span>
               </button>
             </div>
 
