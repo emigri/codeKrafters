@@ -43,7 +43,8 @@ function Home () {
             // Home Page content
            
             <>
-            
+            <div className='bg-stone-300'>
+            <div>
             <Slider
             slider_image1={siteContent.slider_image1}
             slider_image2={siteContent.slider_image2} 
@@ -52,6 +53,7 @@ function Home () {
             slider_image5={siteContent.slider_image5} 
             slider_image6={siteContent.slider_image6}
             />
+            </div>
 
             <Introduction
             our_services={siteContent.our_services}
@@ -87,6 +89,7 @@ function Home () {
             />
    
             <MeetOurTeam></MeetOurTeam>
+            </div>
 
             </>
         )

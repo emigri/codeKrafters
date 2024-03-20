@@ -23,6 +23,9 @@ function Slider(props) {
             
             <>
             <div className='mt-11 border  shadow hover:shadow-xl'>
+              <div className='p-3'>
+              <h1>sample Product Catalogue</h1>
+              </div>
       <Swiper
         pagination={{
           type: 'fraction',
