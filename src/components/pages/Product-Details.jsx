@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import '../../App.css';
 
 const ProductDetails = ({ open, onClose, id, name, description, features, image1, image2, websitePrice, mobilePrice, developmentDays } ) => {
 
+    // format data for display
     let formattedWebsitePrice = "£" + websitePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     let formattedMobilePrice = "£" + mobilePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
@@ -13,6 +15,13 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
       formattedDevelopmentDays = <p>per day</p>
     }
 
+    // navigation
+    const navigate = useNavigate();
+    function openContactUsPage() {
+      navigate("/Contact");
+    }
+
+
     if (!open) return null;
     return (
       <div onClick={onClose} className='modalOverlay'>
@@ -22,7 +31,6 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
           }}
           className='modalContainer'
         >
-          
 
           <div className='modalBody'>
             <p className='modalCloseBtn' onClick={onClose}>
@@ -52,7 +60,7 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
             </div>
 
             <div className='modalBtnContainer'>
-              <button className='modalbtn1'>
+              <button className='modalbtn1' onClick={openContactUsPage}>
                 <span className='bold'>Contact us to discuss</span>
               </button>
               <button className='modalbtn2' onClick={onClose}>
