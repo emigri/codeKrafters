@@ -7,7 +7,6 @@ import About from "./components/pages/About";
 import Basket from "./components/pages/Basket";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MeetOurTeam from "./components/pages/MeetOurTeam";
 // import Product from "./components/pages/Product-Card";

@@ -18,6 +18,10 @@ function Home () {
 
     // Initialise state of the Product Data json (array of product objects)
     const [products, setProducts] = useState(ProductsData);
+    
+    // Initialise state of the "Promoted" Product Data
+    const newPromotedProducts = ProductsData.filter((item) => item.promotion === "true");
+    const [promotedProducts, setPromotedProducts] = useState(newPromotedProducts);
 
     // Initialise state of the Selected Product (for display in the Product Details Modal)
     const [selectedProduct, setSelectedProduct] = useState(ProductsData[0]);
@@ -43,52 +47,50 @@ function Home () {
             // Home Page content
            
             <>
-            <div className='bg-stone-300'>
-            <div>
-            <Slider
-            slider_image1={siteContent.slider_image1}
-            slider_image2={siteContent.slider_image2} 
-            slider_image3={siteContent.slider_image3} 
-            slider_image4={siteContent.slider_image4} 
-            slider_image5={siteContent.slider_image5} 
-            slider_image6={siteContent.slider_image6}
-            />
-            </div>
+            <div className='m-0 p-0 home'>
+                <Slider
+                slider_image1={siteContent.slider_image1}
+                slider_image2={siteContent.slider_image2} 
+                slider_image3={siteContent.slider_image3} 
+                slider_image4={siteContent.slider_image4} 
+                slider_image5={siteContent.slider_image5} 
+                slider_image6={siteContent.slider_image6}
+                />
 
-            <Introduction
-            our_services={siteContent.our_services}
-            our_model={siteContent.our_model} 
-            our_prices={siteContent.our_prices} 
-            />
+                <Introduction
+                our_services={siteContent.our_services}
+                our_model={siteContent.our_model} 
+                our_prices={siteContent.our_prices} 
+                />
 
-            <Wrapper>
-            {products.map((item) => (
-                <ProductCard
-                viewSelectedProduct={viewSelectedProduct}
-                id={item.id}
-                key={item.id}
-                name={item.name}
-                image1={item.image1}
-                description={item.description}
-            />))}
-            </Wrapper>    
+                <Wrapper>
+                    {promotedProducts.map((item) => (
+                        <ProductCard
+                        viewSelectedProduct={viewSelectedProduct}
+                        id={item.id}
+                        key={item.id}
+                        name={item.name}
+                        image1={item.image1}
+                        description={item.description}
+                    />))}
+                </Wrapper>    
           
-            <ProductDetails 
-            open={openModal_ProductDetails} 
-            onClose={() => setOpenModal_ProductDetails(false)} 
+                <ProductDetails 
+                    open={openModal_ProductDetails} 
+                    onClose={() => setOpenModal_ProductDetails(false)} 
 
-            id={selectedProduct.id}
-            name={selectedProduct.name}
-            description={selectedProduct.description}
-            features={selectedProduct.features}
-            image1={selectedProduct.image1}
-            image2={selectedProduct.image2}
-            websitePrice={selectedProduct.websitePrice}
-            mobilePrice={selectedProduct.mobilePrice}
-            developmentDays={selectedProduct.developmentDays}
-            />
+                    id={selectedProduct.id}
+                    name={selectedProduct.name}
+                    description={selectedProduct.description}
+                    features={selectedProduct.features}
+                    image1={selectedProduct.image1}
+                    image2={selectedProduct.image2}
+                    websitePrice={selectedProduct.websitePrice}
+                    mobilePrice={selectedProduct.mobilePrice}
+                    developmentDays={selectedProduct.developmentDays}
+                />
    
-            <MeetOurTeam></MeetOurTeam>
+                 <MeetOurTeam></MeetOurTeam>
             </div>
 
             </>
