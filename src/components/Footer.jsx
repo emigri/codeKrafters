@@ -1,5 +1,4 @@
 import "./SiteContent.json";
-import "../styles/style.css";
 
 function Footer() {
   return (
