@@ -50,7 +50,7 @@ function Navbar() {
         </div>
 
        {/* Navigation Links */}
-        <ul className= {`md:flex pl-9 md:pl-0 md:items-center md:pb-0 pb-5 right-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${isOpen ? 'top-13 z-10  bg-teal-800 opacity-90' : 'top-[-490px] z-0 w-full '}`}>
+        <ul className= {`md:flex pl-9 md:pl-0 md:items-center md:pb-0 pb-5 right-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto transition-all duration-500 ease-in ${isOpen ? 'top-13 z-10  bg-teal-800 opacity-90' : 'top-[-490px] z-0 w-full '}`}>
           {navLinks.map((link, index) => (
             <li className=" font-semibold my-7 md:my-0 md:ml-8 text-stone-300 hover:text-amber-100" onClick={toggleMenu} key={index}>
               <Link className="font-semibold" to={link.path}>
