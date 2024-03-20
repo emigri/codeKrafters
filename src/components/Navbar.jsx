@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import "../App.css";
-import { CodeBracketIcon , ShoppingCartIcon ,Bars3Icon ,XMarkIcon} from '@heroicons/react/24/solid'
+import {
+  CodeBracketIcon,
+  ShoppingCartIcon,
+  Bars3Icon,
+  XMarkIcon
+} from "@heroicons/react/24/solid";
 import { useState } from "react";
 
 // import "./styles/style.css";
@@ -10,15 +15,14 @@ function Navbar() {
     { title: "Home", path: "/" },
     { title: "Product", path: "/ProductCatalogue" },
     { title: "About", path: "/About" },
-    { title: "Contact", path: "/Contact" },
+    { title: "Contact", path: "/Contact" }
   ];
 
-  const [isOpen, setisOpen]=useState(false);
+  const [isOpen, setisOpen] = useState(false);
 
   const toggleMenu = () => {
     setisOpen(!isOpen);
   };
-  
 
   return (
     <div className=" shadow-lg w-full fixed top-0 left-0 z-50">
@@ -30,14 +34,11 @@ function Navbar() {
           <span className="font-bold hover:text-amber-100">codeKrafters</span>
         </div>
 
-
         {/* menu icon */}
         <div  onClick={toggleMenu} className="w-7 h-7 absolute right-8 top-6 cursor-pointer md:hidden text-teal-300 ">
             {isOpen ? <XMarkIcon/> : <Bars3Icon/>}
         
         </div>
-        
-
 
          {/* Basket Icon */}
       
@@ -57,13 +58,9 @@ function Navbar() {
               </Link>
             </li>
           ))}
-          
         </ul>
-        
-
-
       </div>
-    </div>   
+    </div>
   );
 }
 

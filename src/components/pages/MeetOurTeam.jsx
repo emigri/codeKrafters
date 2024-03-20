@@ -5,7 +5,7 @@ const developers = Developers.developers;
 function MeetOurTeam() {
   return (
     <div className=" bg-white py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+      <div className="flex justify-center">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet our team!
@@ -27,7 +27,7 @@ function MeetOurTeam() {
                     alt=""
                   />
                   <div className="flex flex-col justify-between p-4 leading-normal">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 key={developer} className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       {developer}
                     </h5>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
