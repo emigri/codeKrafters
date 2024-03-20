@@ -49,12 +49,8 @@ function Navbar() {
           </Link>
         </div>
 
-        {/* Navigation Links */}
-        <ul
-          className={`md:flex md:pl-0 md:items-center md:pb-0 pb-5 right-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto pl-9 transition-all duration-500 ease-in ${
-            isOpen ? "top-13 z-10  bg-blue-100" : "top-[-490px] z-0 w-full "
-          }`}
-        >
+       {/* Navigation Links */}
+        <ul className= {`md:flex pl-9 md:pl-0 md:items-center md:pb-0 pb-5 right-0 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${isOpen ? 'top-13 z-10  bg-blue-100 opacity-90' : 'top-[-490px] z-0 w-full '}`}>
           {navLinks.map((link, index) => (
             <li
               className=" font-semibold my-7 md:my-0 md:ml-8 text-blue-800 hover:text-blue-400"
