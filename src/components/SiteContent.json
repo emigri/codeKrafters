@@ -11,6 +11,13 @@
   "slider_image5" : "/images/Customer1.jpg",
   "slider_image6" : "/images/Customer2.jpg",
 
+  "slider_banner1" : "Looking for the right software to support your business?",
+  "slider_banner2" : "Dont be constrained by off-the-shelf software that doesnt truly match your requirements",
+  "slider_banner3" : "We design and build our own modular software applications for different business needs",
+  "slider_banner4" : "Each application comes with a set number of Developer Days for us to configure and tailor it just for you",
+  "slider_banner5" : "Contact our dedicated team of developers for a chat to see if we have the right solution for you",
+  "slider_banner6" : "",
+
   "contact_phone": "+44 (0)276 286 2761",
   "contact_email": "codeKrafters@cK.co.uk",
   "address": {
@@ -27,5 +34,18 @@
     "Kacper Wolak",
     "Steve Hannay"
   ],
-  "aboutUs": "About Us text goes here......"
+  "aboutUs": "About Us text goes here......",
+
+  "ourMission": 
+  "At codeKrafters, our mission is simple yet ambitious: to craft intuitive and visually stunning website and mobile applications at an affordable price. We believe that every line of code and every pixel matters, and we are driven by a relentless pursuit of perfection in our craft. By staying abreast of the latest trends and technologies, we aim to empower businesses with digital solutions that not only meet but exceed their expectations.",
+
+  "ourApproach":
+  "What sets us apart at codeKrafters is that we supply ready-made modual systems which we then configure, tailor and expand to meet your exact requirements. Each system comes with a predefined amount of Development Days and additional Development Days and User Support can be purchased where necessary. By working in close partnership with our customers and focusing on their precise needs we are able to achieve great things",
+
+  "ourExpertise":
+  "With a diverse skill set encompassing HTML, CSS, JavaScript, React and beyond, our team boasts a wealth of talent for crafting bespoke solutions for a variety of industries. We have the tools and know-how to tackle any challenge with finesse and ingenuity.",
+
+  "ourCommitment":
+  "At codeKrafters, we take pride in our reputation for reliability, integrity, and professionalism. We understand the importance of deadlines and budgets, and we are dedicated to delivering results that not only meet but exceed expectations. Our clients' satisfaction is our ultimate priority, and we are committed to building lasting partnerships based on trust, transparency, and mutual success."
+
 }
