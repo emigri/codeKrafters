@@ -86,8 +86,7 @@ function Home () {
             developmentDays={selectedProduct.developmentDays}
             />
    
-            <MeetOurTeam></MeetOurTeam>
-
+            <MeetOurTeam />
             </>
         )
     }
