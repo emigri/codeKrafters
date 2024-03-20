@@ -72,17 +72,11 @@ body {
   }
   
   .swiper-slide img {
+    display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    object-position: center;
   }
-
-  .swiper-lazy-loaded {
-    object-fit: cover !important;
-    width: 100% !important;
-    max-width: none !important;
-}
 
   .slidertext {
     position: absolute;
@@ -220,8 +214,7 @@ body {
     transform: translate(-50%, -50%);
     
     background-color: #ffffff;
-    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 8px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
   
     padding-left: 2rem;
     padding-right: 2rem;
@@ -280,14 +273,14 @@ body {
   }
   
   .modalbtn1 {
-    background-color: orangered;
+    background-color: #562c2c;
     color: white;
     margin: 0;
   }
   
   .modalbtn2 {
     /* background-color: #a76a99; */
-    background-color: orangered;
+    background-color: #562c2c;
     color: white;
     margin: 0;
   }
