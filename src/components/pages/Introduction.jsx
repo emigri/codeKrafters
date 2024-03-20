@@ -4,7 +4,7 @@ import React from "react";
  function Introduction(props) {
 
         return (
-            <div className="introduction">
+            <div className="container mx-auto px-4 introduction">
 
         <ul>
           <li>
