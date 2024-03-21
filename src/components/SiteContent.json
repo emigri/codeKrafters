@@ -11,12 +11,12 @@
   "slider_image5" : "/images/Customer1.jpg",
   "slider_image6" : "/images/Customer2.jpg",
 
-  "slider_banner1" : "Looking for the right software to support your business?",
-  "slider_banner2" : "Dont be constrained by off-the-shelf software that doesnt truly match your requirements",
-  "slider_banner3" : "We design and build our own modular software applications for different business needs",
-  "slider_banner4" : "Each application comes with a set number of Developer Days for us to configure and tailor it just for you",
-  "slider_banner5" : "Contact our dedicated team of developers for a chat to see if we have the right solution for you",
-  "slider_banner6" : "",
+  "slider_banner1" : "Welcome to codeKrafters",
+  "slider_banner2" : "Are looking for the right software to support your business?",
+  "slider_banner3" : "Dont be constrained by off-the-shelf applications that don't truly match your requirements",
+  "slider_banner4" : "We design and build our own modular website applications for different business needs",
+  "slider_banner5" : "Each application comes with a number of Developer Days which we use to configure and tailor it just for you",
+  "slider_banner6" : "Contact our dedicated team of developers to see if we have the right solution for you.",
 
   "contact_phone": "+44 (0)276 286 2761",
   "contact_email": "codeKrafters@cK.co.uk",
