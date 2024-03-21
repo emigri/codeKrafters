@@ -11,7 +11,7 @@ function Wrapper(props) {
             Our current promotions
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Select 'Our Products' from the meny to view all of our products
+            Select 'Our Products' from the menu to view all of our products
           </p>
       </div>
     
