@@ -326,3 +326,12 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
   }
+
+
+  /* Basket */
+  .basketButton {
+    background-color:  #562c2c;;
+    color: white;
+    padding: 5px 32px;
+    margin: 12px;;
+  }
