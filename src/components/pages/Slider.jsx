@@ -26,7 +26,7 @@ function Slider(props) {
                   type: 'fraction',
                 }}
                 autoplay={{
-                  delay: 5000,
+                  delay: 8000,
                   disableOnInteraction: false,
                 }}
                 navigation={true}

@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 const ProductDetails = ({ open, onClose, id, name, description, features, image1, image2, websitePrice, mobilePrice, developmentDays } ) => {
 
+    const navigate = useNavigate();
+
     // format data for display
     let formattedWebsitePrice = "£" + websitePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     let formattedMobilePrice = "£" + mobilePrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -14,12 +16,16 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
       formattedDevelopmentDays = <p>per day</p>
     }
 
-    // navigation
-    const navigate = useNavigate();
+    // navigation to Contact page
+    
     function openContactUsPage() {
       navigate("/Contact");
     }
 
+    // navigation to Basket page
+    function openBasketPage() {
+      navigate("/Basket");
+    }
 
     if (!open) return null;
     return (
@@ -59,7 +65,7 @@ const ProductDetails = ({ open, onClose, id, name, description, features, image1
             </div>
 
             <div className='modalBtnContainer'>
-            <button className='modalbtn1' onClick={openContactUsPage}>
+            <button className='modalbtn1' onClick={openBasketPage}>
                 <span className='bold'>Add to Basket</span>
               </button>
               <button className='modalbtn1' onClick={openContactUsPage}>
