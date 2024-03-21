@@ -12,9 +12,9 @@ import { useState } from "react";
 function Navbar() {
   const navLinks = [
     { title: "Home", path: "/" },
-    { title: "Product", path: "/ProductCatalogue" },
-    { title: "About", path: "/About" },
-    { title: "Contact", path: "/Contact" }
+    { title: "Our Products", path: "/ProductCatalogue" },
+    { title: "About Us", path: "/About" },
+    { title: "Contact Us", path: "/Contact" }
   ];
 
   const [isOpen, setisOpen] = useState(false);
