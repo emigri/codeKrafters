@@ -22,7 +22,7 @@ body.dark {
   color: #000;
 }
 
-.dark .text-gray-900,.dark .text-gray-600  {
+.dark .text-gray-900,.dark .text-gray-600,.dark .text-gray-700,.dark .text-gray-800   {
   color: #fff;
 }
 
@@ -79,9 +79,32 @@ body.dark {
   color: #000;
 }
 
-body.light {
-  background-color: #fff;
+.dark .contact {
+  color: #fff;
 }
+.dark .contact form:hover {
+  transition: var(--transition);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+}
+
+.dark .contact form:hover .text-gray-800, .dark .contact form:hover .text-gray-700  {
+  color:#000 !important;
+}
+
+.dark .contact form:hover button.bg-teal-800  {
+  color:#fff !important;
+  background-color:#000;
+}
+
+.dark .contact form button.bg-teal-800:hover {
+  background-color: rgb(13 148 136 / var(--tw-bg-opacity));
+}
+
+.dark button.text-white {
+  color: #000 !important;
+}
+
 
 /* Light Theme */ 
 body.light {
