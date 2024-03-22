@@ -63,7 +63,7 @@ function Home () {
                 our_prices={siteContent.our_prices} 
                 />
 
-                <div className="container my-10">
+                <div className="container mx-auto my-10">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our current promotions</h2>
                     <p className="mt-4 text-lg leading-8 text-gray-600">Select 'Our Products' from the menu to see all of our products</p>
                 </div>

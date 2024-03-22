@@ -2,11 +2,152 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --transition: .5s ease-out all;
+}
+
 body {
     background-color: #d8bcab;
 }
 
-.home {
+/* Dark Theme */ 
+body.dark {
+  background-color: #000;
+}
+.dark .bg-teal-800 {
+  background-color: #fff;
+}
+
+.dark .text-stone-300 {
+  color: #000;
+}
+
+.dark .text-gray-900,.dark .text-gray-600  {
+  color: #fff;
+}
+
+.dark .text-stone-300:hover {
+  color: #5c5c5c;
+}
+
+.dark .slidertext {
+  background: rgba(0, 0, 0, .75);
+  color:#fff;
+}
+
+.dark .introduction {
+  background: rgba(0, 0, 0, .75) !important;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.5)
+}
+
+.dark .productCard {
+  background: rgba(0, 0, 0, .75) !important;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.5);    
+  box-shadow: none;
+}
+
+.dark .productCard .viewSelectedProduct {
+  background: rgba(255, 255,255,1) !important;
+  color:#000;
+  border:1px solid rgba(255,255,255,.5);    
+  box-shadow: none;
+}
+
+.dark .productCard .viewSelectedProduct:hover {
+  color:#fc5050;
+}
+
+.dark .modalContainer {
+  background: rgba(0, 0, 0, 1) !important;
+  color:#fff;
+  border:1px solid #fc5050
+}
+.dark .modalbtn1,.dark .modalbtn2 {
+  background-color: #fff;
+  color: #000;
+  margin: 10px;
+  border:1px solid #fc5050
+}
+
+.dark h5.text-gray-900 {
+  color: #000;
+}
+
+.dark #themes {
+  color: #000;
+}
+
+body.light {
+  background-color: #fff;
+}
+
+/* Light Theme */ 
+body.light {
+  background-color: #fff;
+}
+.light .bg-teal-800 {
+  background-color: #000;
+}
+
+.light .text-stone-300 {
+  color: #fff;
+}
+
+.light .text-gray-900,.light .text-gray-600  {
+  color: #000;
+}
+
+.light .text-stone-300:hover {
+  color: #5c5c5c;
+}
+
+.light .slidertext {
+  background: rgba(255, 255, 255, .75);
+  color:#000;
+}
+
+.light .introduction {
+  background: rgba(255, 255, 255, .75) !important;
+  color:#000;
+  border:1px solid rgba(0,0,0,.5)
+}
+
+.light .productCard {
+  background: rgba(255, 255, 255, .75) !important;
+  color:#000;
+  border:1px solid rgba(0,0,0,.5);    
+  box-shadow: none;
+}
+
+.light .productCard .viewSelectedProduct {
+  background: rgba(0, 0,0,1) !important;
+  color:#fff;
+  border:1px solid rgba(0,0,0,.5);    
+  box-shadow: none;
+}
+
+.light .productCard .viewSelectedProduct:hover {
+  color:#fc5050;
+}
+
+.light .modalContainer {
+  background: rgba(255, 255, 255, 1) !important;
+  color:#000;
+  border:1px solid #fc5050
+}
+.light .modalbtn1,.light .modalbtn2 {
+  background-color: #000;
+  color: #fff;
+  margin: 10px;
+  border:1px solid #fc5050
+}
+.light h5.text-gray-900 {
+  color: #000;
+}
+.light #themes {
+  color: #000;
 }
 
 #root {
@@ -335,3 +476,72 @@ body {
     padding: 5px 32px;
     margin: 12px;;
   }
+
+  /* Contact Page */
+  .contact {
+    margin: 50px 0;
+  }
+  .contact > * {
+    margin-top:25px;
+  }
+
+  .contact form {
+    padding: 20px;
+    transition: var(--transition);
+  }
+  
+  .contact form:hover {
+    transition: var(--transition);
+    background-color: rgba(255,255,255,.2);
+    -webkit-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+  }
+
+  .contact form  input, .contact form textarea {
+    border-radius:0
+  }
+  
+ .contact form textarea {
+    min-height:150px;
+  }
+
+  /* The sidebar menu */
+.theme-select {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    z-index: 99;
+    background:rgba(255,255,255,.2);
+    padding: 10px;
+    color:rgba(0,0,0,.4);
+}
+.theme-select:hover {
+    background:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    transition: var(--transition);
+}
+
+.theme-select .font-semibold:hover {
+    background:rgba(255,255,255,1);
+    color:rgb(85, 0, 0);
+    -webkit-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 34px -10px rgba(0,0,0,0.2);
+    transition: var(--transition);
+}
+
+.theme-select ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.theme-select ul li {
+  border-bottom:1px dashed rgba(0, 0, 0, .1)
+}
+.theme-select ul li:last-child {
+  border-bottom:none
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import '../../../public/assets/css/style.css'
 
 function Contact() {
@@ -18,7 +18,7 @@ function Contact() {
       <form className="mx-auto max-w-sm">
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-name">
               Your Name
             </label>
           </div>
@@ -28,7 +28,7 @@ function Contact() {
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-email">
               Your E-Mail
             </label>
           </div>
@@ -38,7 +38,7 @@ function Contact() {
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-phone">
               Your Phone
             </label>
           </div>
@@ -48,7 +48,7 @@ function Contact() {
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+            <label className="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-message">
               Your Message
             </label>
           </div>
