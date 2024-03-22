@@ -38,7 +38,7 @@ function Basket ({items, cartId}){
 
 
 return (
-    <div className = "card">
+    <div className = "card basket">
         <h1>Your Basket</h1>
         
         <div>
