@@ -10,9 +10,15 @@ body {
     background-color: #d8bcab;
 }
 
+body.default {
+  background-color: #d8bcab;
+  transition: var(--transition);
+}
+
 /* Dark Theme */ 
 body.dark {
-  background-color: #000;
+  background-color: #000;  
+  transition: var(--transition);
 }
 .dark .bg-teal-800 {
   background-color: #fff;
@@ -109,6 +115,7 @@ body.dark {
 /* Light Theme */ 
 body.light {
   background-color: #fff;
+  transition: var(--transition);
 }
 .light .bg-teal-800 {
   background-color: #000;
@@ -568,3 +575,14 @@ body.light {
 .theme-select ul li:last-child {
   border-bottom:none
 }
+.theme-select span {
+background: rgba(0,0,0,0.2);
+padding: 4px;
+color: rgba(255,255,255,0.2);;
+}
+
+.theme-select:hover span {
+  background: rgba(0,0,0,.5);
+  padding: 4px;
+  color: rgba(255,255,255,1);;
+  }

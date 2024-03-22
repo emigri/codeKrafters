@@ -24,8 +24,34 @@ function Footer() {
             Code Krafters
           </a>
         </span>  
-        <div className="theme-select">
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+            <a
+              href="#"
+              className="hover:underline text-stone-300 gap-2 me-4 md:me-6"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="hover:underline text-stone-300 gap-2 me-4 md:me-6"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline text-stone-300 gap-2">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div className="theme-select">
           <ul className="theme-list">
+            <span>Theme Select</span>
             <li>
                 <input onChange={(e)=> setTheme({...theme, themeClassName: e.target.value})} type="checkbox" id="dark-option" value="dark" className="hidden peer" required=""/>
                 <label htmlFor="dark-option" className="items-center w-full p-5">                           
@@ -52,31 +78,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-          <li>
-            <a
-              href="#"
-              className="hover:underline text-stone-300 gap-2 me-4 md:me-6"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="hover:underline text-stone-300 gap-2 me-4 md:me-6"
-            >
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline text-stone-300 gap-2">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
     
     </>
   );
