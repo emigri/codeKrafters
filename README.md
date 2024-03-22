@@ -11,7 +11,7 @@ Completed - 22nd Mar 2024
 
 ## Description
 
-![Project 2 - screenshot of the homepage of the codeKrafters website](../codeKrafters/public/images/Screenshot%201%20-%20Home.png)
+![Project 2 - screenshot of the homepage of the codeKrafters website](public/images/Screenshot%201%20-%20Home.png)
 
 The codeKrafters website is an example of an e-commerce website application for selling software and development services. 
 
@@ -54,22 +54,22 @@ No installation is required.
 
 Open the website at the home page. 
 Browse the Home page to read about our business model and our products.
-![Project 2 - screenshot of the Home page of the codeKrafters website](../codeKrafters/public/images/Screenshot%201%20-%20Home.png)
+![Project 2 - screenshot of the Home page of the codeKrafters website](public/images/Screenshot%201%20-%20Home.png)
 
 Open the Our Products page to view All of our products
-![Project 2 - screenshot of the Our Products page of the codeKrafters website](../codeKrafters/public/images/Screenshot%203%20-%20Our%20Products.png)
+![Project 2 - screenshot of the Our Products page of the codeKrafters website](public/images/Screenshot%203%20-%20Our%20Products.png)
 
 Click on the 'View Details' button of any product to view its details in the Product Details modal popup.
 Add products to the basket via the Product Petails.
-![Project 2 - screenshot of the Product Details page of the codeKrafters website](../codeKrafters/public/images/Screenshot%202%20-%20Product%20Details.png)
+![Project 2 - screenshot of the Product Details page of the codeKrafters website](public/images/Screenshot%202%20-%20Product%20Details.png)
 
 Send us messages from the Contact Us page.
 note : this feature is not currently functional.
-![Project 2 - screenshot of the Contact Us page of the codeKrafters website](../codeKrafters/public/images/Screenshot%205%20-%20Contact%20Us.png)
+![Project 2 - screenshot of the Contact Us page of the codeKrafters website](public/images/Screenshot%205%20-%20Contact%20Us.png)
 
 Make payment to us from the Basket page.
 note : this feature is not currently functional.
-![Project 2 - screenshot of the Basket page of the codeKrafters website](../codeKrafters/public/images/Screenshot%206%20-%20Basket.png)
+![Project 2 - screenshot of the Basket page of the codeKrafters website](public/images/Screenshot%206%20-%20Basket.png)
 
 
 ## Testing
